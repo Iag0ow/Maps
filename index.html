@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./app.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmDRu7AT7eV4frq519bvibHYYMcDOEGuU&callback=initMap&libraries=drawing,geometry"
+      async
+      defer
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Google maps</title>
+  </head>
+  <body>
+    <div id="map"></div>
+    <div id="floating">
+      <div class="floatingCard">
+        <span class="textArea">
+          <h4>Minha Área</h4>
+          <h4>Configure a área de entrega ideal</h4>
+        </span>
+        <div class="navButtons">
+          <button class="areaDrawing">Desenhar área</button>
+          <button class="save">Salvar</button>
+          <button class="delete">Descartar</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

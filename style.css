@@ -1,0 +1,91 @@
+body {
+  display: flex;
+  background-color: #5c5b5b;
+}
+#map {
+  width: 100%;
+  height: 99vh;
+}
+
+#floating {
+  width: 700px;
+  height: 70px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  position: absolute;
+  top: 85vh;
+  left: 60vh;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.navButtons {
+  padding-top: 14px;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+.areaDrawing {
+  width: 130px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: rebeccapurple;
+  color: white;
+  font-weight: bolder;
+  font-size: 16px;
+  border: none;
+}
+.save {
+  margin-right: -50px;
+  width: 70px;
+  height: 37px;
+  font-size: 14.2px;
+  border-radius: 4px;
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  border: none;
+}
+.delete {
+  width: 90px;
+  height: 37px;
+  font-size: 14.2px;
+  border-radius: 4px;
+  background-color: rgb(206, 28, 28);
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  border: none;
+}
+.textArea {
+  display: flex;
+  flex-direction: column;
+}
+.textArea h4 {
+  margin: 0.4rem;
+  -webkit-text-stroke: 1px red;
+  color: white;
+  font-weight: 50;
+}
+
+.floatingCard {
+  display: flex;
+  justify-content: space-between;
+}
+
+.areaDrawing:hover,
+.save:hover,
+.delete:hover {
+  cursor: pointer;
+  transition: 1s;
+}
+.areaDrawing:hover {
+  background-color: rgb(147, 79, 214);
+}
+.save:hover {
+  background-color: rgb(8, 160, 8);
+}
+.delete:hover {
+  background-color: red;
+}
